@@ -1,4 +1,3 @@
-const { animate } = require("framer-motion");
 
 // toggle icon navbar
 let menuIcon = document.querySelector('#menu-icon');
@@ -48,6 +47,4 @@ window.onscroll = () => {
     let footer = document.querySelector('footer');
 
     footer.classList.toggle('show-animate', this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight);
-
-
 }
